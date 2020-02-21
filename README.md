@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+  --Relational databases is a model while SQL is a language that is used to interact with a RDBS model
+
 - [ ] Why do tables need a `primary key`?
+
+-- a primary key is a unique row identifier, without it there would not be a consistent and accuracte way to query data.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+-- foreign key (or in my mental modal, a referance key)
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+-- many to many relationships between tables requires a third intermidiate (Mental Model: transactional referance table) table that contains forign keys of the other two tables. the third table can still contain additional columns.
 
 ## Minimum Viable Product
 
